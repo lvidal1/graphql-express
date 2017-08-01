@@ -1,0 +1,20 @@
+{
+  "name": "simple-graph",
+  "version": "1.0.0",
+  "description": "Simple GraphQL Server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Leonardo Vidal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "nodemon": "^1.11.0"
+  }
+}
